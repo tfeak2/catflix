@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <head>
+      <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    </head>
+    <Sidebar />
+    <div id="content">
+      <router-view />
     </div>
-    <router-view />
   </div>
 </template>
-
+<script>
+import Sidebar from "./components/Sidebar"
+export default {
+  components: {
+    Sidebar,
+  },
+  setup() {
+    
+  },
+}
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  #content{
+    margin-top: 7em;
+    font-family: 'JetBrains Mono';
+    font-size: 1.3em;
+    font-weight: medium;
+  }
+  body{
+    background-color: #1e1e2e;
+    color: white;
+  }
 </style>
