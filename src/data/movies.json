@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "image": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "category": "Action",
+        "price": 17.99
+    },
+    {
+        "name": "The Batman",
+        "year": 2022,
+        "image": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "category": "Action",
+        "price": 15.99
+    },
+    {
+        "name": "The Northman",
+        "year": 2022,
+        "image": "https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "category": "Action",
+        "price": 12.99
+    },
+    {
+        "name": "Scream",
+        "year": 2022,
+        "image": "https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "category": "Horror",
+        "price": 13.99
+    },
+    {
+        "name": "Hatching",
+        "year": 2022,
+        "image": "https://m.media-amazon.com/images/M/MV5BZGNiNDQ2OTAtZWYwOS00ZGVlLThmNmItM2NlMDU5M2QxNzUyXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "category": "Horror",
+        "price": 12.99
+    },
+    {
+        "name": "The Cursed",
+        "year": 2021,
+        "image": "https://m.media-amazon.com/images/M/MV5BMjllNWFhZWUtN2NlNi00NDBmLWE5MjgtMGM3ZGQyNjk1NjQ5XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UY209_CR1,0,140,209_AL_.jpg",
+        "category": "Horror",
+        "price": 12.99
+    }
+]
