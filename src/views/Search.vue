@@ -28,6 +28,7 @@ export default {
             selectedMovies: [],
         }
     },
+    //ran before load
     beforeMount(){
         if(localStorage.movies == null){
             localStorage.movies = JSON.stringify(this.movies);
